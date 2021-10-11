@@ -8,6 +8,7 @@ export class AppComponent {
   public appPages = [
     { title: 'Navegação', url: 'navegacao', icon: 'paper-plane' },
     { title: 'Botões', url: 'botoes', icon: 'construct' },
+    { title: 'Alerta', url: 'alerta', icon: 'alert' },
    
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
