@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'navegacao',
     loadChildren: () => import('./pages/navegacao/navegacao.module').then( m => m.NavegacaoPageModule)
+  },
+  {
+    path: 'navegacao2',
+    loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
   }
 ];
 
