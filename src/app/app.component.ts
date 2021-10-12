@@ -11,6 +11,7 @@ export class AppComponent {
     { title: 'Alerta', url: 'alerta', icon: 'alert' },
     { title: 'Action-Sheet', url: 'actions', icon: 'construct' },
     { title: 'Badge', url: 'badge', icon: 'construct' },
+    { title: 'Cards', url: 'card', icon: 'construct' },
    
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
