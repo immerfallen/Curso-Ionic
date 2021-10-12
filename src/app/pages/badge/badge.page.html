@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Badge</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>Notificações</ion-label>
+    <ion-badge slot="end">{{notificacoes}}</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Usuários</ion-label>
+    <ion-badge color="light" slot="end">15</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Likes</ion-label>
+    <ion-badge color="danger" slot="end">32</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-label>Produtos</ion-label>
+    <ion-badge color="tertiary" slot="end">{{produtos}}</ion-badge>
+  </ion-item>
+</ion-content>
