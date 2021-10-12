@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'alerta',
     loadChildren: () => import('./pages/alerta/alerta.module').then( m => m.AlertaPageModule)
+  },
+  {
+    path: 'actions',
+    loadChildren: () => import('./pages/actions/actions.module').then( m => m.ActionsPageModule)
   }
 ];
 
