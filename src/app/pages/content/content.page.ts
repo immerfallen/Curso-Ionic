@@ -11,5 +11,13 @@ export class ContentPage implements OnInit {
 
   ngOnInit() {
   }
-
+logScrollStart(){
+  console.log("Scroll iniciado")
+}
+logScrollEnd(){
+  console.log('Scroll parou')
+}
+logScrolling(e){
+console.log(e)
+}
 }

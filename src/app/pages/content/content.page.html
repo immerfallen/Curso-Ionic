@@ -8,7 +8,12 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content
+  [scrollEvents]="true"
+  (ionScrollStart)="logScrollStart()"
+  (ionScroll)="logScrolling($event)"
+  (ionScrollEnd)="logScrollEnd()"
+>
   <div slot="fixed">
     <h1>Meu títuto</h1>
   </div>
