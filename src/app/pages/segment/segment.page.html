@@ -9,5 +9,25 @@
 </ion-header>
 
 <ion-content>
+<ion-segment (ionChange)="selecionar($event)">
+  <ion-segment-button value="frutas">
+    <ion-label>Frutas</ion-label>
+  </ion-segment-button>
+  <ion-segment-button value="cores">
+    <ion-label>Cores</ion-label>
+  </ion-segment-button>
+</ion-segment>
 
+<ion-list *ngIf="opcaoSelecionada == 'frutas' ">
+  <ion-item>Maçã</ion-item>
+  <ion-item>Uva</ion-item>
+  <ion-item>Banana</ion-item>
+  <ion-item>Abacate</ion-item>
+</ion-list>
+<ion-list *ngIf="opcaoSelecionada == 'cores' ">
+  <ion-item>Azul</ion-item>
+  <ion-item>Verde</ion-item>
+  <ion-item>Amarelo</ion-item>
+  <ion-item>Roxo</ion-item>
+</ion-list>
 </ion-content>
