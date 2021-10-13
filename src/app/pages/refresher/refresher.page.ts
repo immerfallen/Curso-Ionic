@@ -11,5 +11,14 @@ export class RefresherPage implements OnInit {
 
   ngOnInit() {
   }
+doRefresh(e){
+  console.log('Usuário solicitou atualização')
 
+  setTimeout(()=> {
+    console.log('Atualização concluida')
+    e.target.complete()
+  },2000)
+
+  
+}
 }
