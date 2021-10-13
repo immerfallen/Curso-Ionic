@@ -24,6 +24,7 @@ export class AppComponent {
     { title: 'Progress Bar', url: 'progressbar', icon: 'construct' },
     { title: 'Refresher', url: 'refresher', icon: 'construct' },
     { title: 'Reorder', url: 'reorder', icon: 'construct' },
+    { title: 'Select', url: 'select', icon: 'construct' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

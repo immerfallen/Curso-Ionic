@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Select</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Select: Alert Interface</ion-label>
+      <ion-select class="custom-options">
+        <ion-select-option value="brown">Brown</ion-select-option>
+        <ion-select-option value="blonde">Blonde</ion-select-option>
+        <ion-select-option value="black">Black</ion-select-option>
+        <ion-select-option value="red">Red</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Select: Alert Interface (Multiple Selection)</ion-label>
+      <ion-select class="custom-options" multiple="true">
+        <ion-select-option value="brown">Brown</ion-select-option>
+        <ion-select-option value="blonde">Blonde</ion-select-option>
+        <ion-select-option value="black">Black</ion-select-option>
+        <ion-select-option value="red">Red</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Select: Popover Interface</ion-label>
+      <ion-select interface="popover" class="custom-options">
+        <ion-select-option value="brown">Brown</ion-select-option>
+        <ion-select-option value="blonde">Blonde</ion-select-option>
+        <ion-select-option value="black">Black</ion-select-option>
+        <ion-select-option value="red">Red</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Select: Action Sheet Interface</ion-label>
+      <ion-select interface="action-sheet" class="custom-options">
+        <ion-select-option value="brown">Brown</ion-select-option>
+        <ion-select-option value="blonde">Blonde</ion-select-option>
+        <ion-select-option value="black">Black</ion-select-option>
+        <ion-select-option value="red">Red</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <br>
+  <ion-list>
+    <ion-item>
+      <ion-label>Cor</ion-label>
+      <ion-select
+        placeholer="Selecione"
+        value="blue"
+        okText="Selecionar"
+        cancelText="Cancelar"
+      >
+        <ion-select-option value="pink">Rosa</ion-select-option>
+        <ion-select-option value="blue">Azul</ion-select-option>
+        <ion-select-option value="black">Preto</ion-select-option>
+        <ion-select-option value="orange">Laranja</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+</ion-content>
