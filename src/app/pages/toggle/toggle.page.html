@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>toggle</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Toggle</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  {{marcado}}
+  <ion-list>
+    <ion-item>
+      <ion-label>Abacate</ion-label>
+      <ion-toggle [(ngModel)]="marcado" ></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Manga</ion-label>
+      <ion-toggle color="danger"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Limão</ion-label>
+      <ion-toggle color="dark" checked></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Marcado</ion-label>
+      <ion-toggle [(ngModel)]="marcado"  color="dark" checked></ion-toggle>
+    </ion-item>
+  </ion-list>
 </ion-content>

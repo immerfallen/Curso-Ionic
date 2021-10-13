@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./toggle.page.scss'],
 })
 export class TogglePage implements OnInit {
+  marcado: boolean = true
+    constructor() { }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+ngOnInit() {
+}
 
 }
