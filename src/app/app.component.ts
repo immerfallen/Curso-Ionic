@@ -20,6 +20,7 @@ export class AppComponent {
     { title: 'Grid', url: 'grid', icon: 'construct' },
     { title: 'Infinite Scroll', url: 'infinitescroll', icon: 'construct' },
     { title: 'Input', url: 'input', icon: 'construct' },
+    { title: 'List', url: 'list', icon: 'construct' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
