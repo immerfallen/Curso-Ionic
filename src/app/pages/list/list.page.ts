@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./list.page.scss'],
 })
 export class ListPage implements OnInit {
-
+frutas : string[] = ["maçã", "pera", "uva", " banana"]
   constructor() { }
 
   ngOnInit() {
