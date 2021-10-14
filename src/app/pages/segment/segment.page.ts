@@ -17,3 +17,4 @@ console.log(e)
 this.opcaoSelecionada = e.detail.value
 }
 }
+

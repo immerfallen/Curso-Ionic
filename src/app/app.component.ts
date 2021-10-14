@@ -28,6 +28,7 @@ export class AppComponent {
     { title: 'Toggle', url: 'toggle', icon: 'construct' },
     { title: 'Search Bar', url: 'searchbar', icon: 'construct' },
     { title: 'Segment', url: 'segment', icon: 'construct' },
+    { title: 'Slide', url: 'slide', icon: 'construct' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
