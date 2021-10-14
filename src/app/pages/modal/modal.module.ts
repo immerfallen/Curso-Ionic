@@ -1,3 +1,4 @@
+import { ModalInternoComponent } from './../../componentes/modal-interno/modal-interno.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -15,6 +16,7 @@ import { ModalPage } from './modal.page';
     IonicModule,
     ModalPageRoutingModule
   ],
-  declarations: [ModalPage]
+  declarations: [ModalPage, ModalInternoComponent],
+  entryComponents: [ModalInternoComponent]
 })
 export class ModalPageModule {}
