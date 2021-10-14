@@ -1,4 +1,6 @@
+import { ModalInternoComponent } from './../../componentes/modal-interno/modal-interno.component';
 import { Component, OnInit } from '@angular/core';
+import { PopoverController } from '@ionic/angular';
 
 @Component({
   selector: 'app-popover',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PopoverPage implements OnInit {
 
-  constructor() { }
+  constructor(public popoverCtrl: PopoverController) { }
 
   ngOnInit() {
   }
-
+async presentPopover(ev: any){
+const popover = await this.popoverCtrl.create({
+  component: ModalInternoComponent,
+  event: ev,
+  translucent: true
+})
+return await popover.present()
+}
 }

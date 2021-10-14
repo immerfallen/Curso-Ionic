@@ -1,3 +1,4 @@
+import { ModalInternoComponent } from './../../componentes/modal-interno/modal-interno.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -13,8 +14,10 @@ import { PopoverPage } from './popover.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    PopoverPageRoutingModule
+    PopoverPageRoutingModule,
+   
   ],
-  declarations: [PopoverPage]
+  declarations: [PopoverPage,  ModalInternoComponent],
+  entryComponents: [ModalInternoComponent]
 })
 export class PopoverPageModule {}
