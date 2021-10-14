@@ -34,6 +34,7 @@ export class AppComponent {
     { title: 'Popover', url: 'popover', icon: 'construct' },
     { title: 'Radio', url: 'radio', icon: 'construct' },
     { title: 'Animação', url: 'animacao', icon: 'construct' },
+    { title: 'Camera', url: 'camera', icon: 'construct' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];

@@ -1,3 +1,4 @@
+import { NavController } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -11,5 +12,5 @@ export class CameraPage implements OnInit {
 
   ngOnInit() {
   }
-
+  
 }
