@@ -32,6 +32,7 @@ export class AppComponent {
     { title: 'Toast', url: 'toast', icon: 'construct' },
     { title: 'Modal', url: 'modal', icon: 'construct' },
     { title: 'Popover', url: 'popover', icon: 'construct' },
+    { title: 'Radio', url: 'radio', icon: 'construct' },
 
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
